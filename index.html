@@ -46,7 +46,7 @@
 </div>
 </div>
 <script>
-const publicUrl='https://pustak-prakashan-sohala-invitation.netlify.app/';
+const publicUrl='https://vaibhav-kulkarnii.github.io/pustak-prakashan-sohala-invitation/';
 const inviteMessage=['।। जय श्रीराम ।।','','हिंदू युवा प्रबोधिनी आयोजित','‘रावण : नायक की खलनायक?’ या पुस्तकाचा भव्य प्रकाशन सोहळा','','सन्माननीय उपस्थिती व कार्यक्रमाची संपूर्ण माहिती आमच्या लिंकवर उपलब्ध आहे.','','एका क्लिकमध्ये कार्यक्रमाची तारीख मोबाईल कॅलेंडरमध्ये जतन करा आणि Google Maps वर स्थळ पाहा.','','आमंत्रण व सर्व माहिती पाहण्यासाठी लिंक:',publicUrl,'','आपली उपस्थिती मनःपूर्वक अपेक्षित!'].join('\n');
 document.getElementById('whatsappButton').href='https://wa.me/?text='+encodeURIComponent(inviteMessage);
 document.getElementById('copyButton').addEventListener('click',async()=>{const b=document.getElementById('copyButton');try{await navigator.clipboard.writeText(publicUrl);b.textContent='✓ लिंक कॉपी झाली'}catch{b.textContent=publicUrl}setTimeout(()=>b.textContent='🔗 आमंत्रण लिंक कॉपी करा',2400)});
